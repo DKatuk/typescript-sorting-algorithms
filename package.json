@@ -1,0 +1,17 @@
+{
+  "name": "typescript-sorting-algorithms",
+  "version": "1.0.0",
+  "description": "This project was developed to practice TypeScript concepts as well as Bubble sorting algorithm.",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
